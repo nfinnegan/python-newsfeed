@@ -13,3 +13,9 @@ class Post(Base):
   updated_at = Column(DateTime, default=datetime.now, onupdate=datetime.now)
 
   user = relationship('User')
+  comments = relationship('Comment', cascade='all,delete')
+
+
+  #In MySQL, an ON DELETE CASCADE statement deletes the corresponding foreign key records 
+  # when a record from the specified table is deleted. In this case, deleting a post from 
+  # the database also deletes all its associated comments.

@@ -34,6 +34,14 @@ In this lesson, you accomplished the following:
 
 - Imported custom filters into a Jinja template.
 
+## Lesson 4
+
+- Captured data in a Flask POST route by using the request object.
+
+- Persisted data across routes by using the session object.
+
+- Handled database errors by using try...except statements.
+
 ## Overall Lessons
 
 What You Will Learn

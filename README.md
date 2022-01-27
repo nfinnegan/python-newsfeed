@@ -42,6 +42,12 @@ In this lesson, you accomplished the following:
 
 - Handled database errors by using try...except statements.
 
+## Lesson 5
+
+- Updated and deleted data by using SQLAlchemy methods.
+
+- Created a custom decorator function to act as route middleware.
+
 ## Overall Lessons
 
 What You Will Learn
